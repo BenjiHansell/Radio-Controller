@@ -17,4 +17,4 @@ Adafruit_Neopixel | A driver for the LEDs | https://github.com/adafruit/Adafruit
 ## Data Sources
 
 The user interface is designed around inheritance from two base classes:
-Any class which inherits from DataSource can provide data for the LCD in the form of a string.  Any class which inherits from LcdDataSource can be associated with an LED and provide data in the form of a colour.
+Any class which inherits from DataSource can provide data (e.g. telemetry, signal strength) for the LCD in the form of a string.  Any class which inherits from LedDataSource can be associated with an LED and provide data in the form of a colour.
