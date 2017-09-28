@@ -2,6 +2,8 @@
 
 The PCB is designed using KiCAD.  The schematic is based around that of the Arduino Pro Mini, with an ATmega328P clocked at 16 MHz on a 5V supply.  There are pin headers for connecting an SPI NRF24L01+ radio module (which has a dedicated 3.3V supply), an I2C LCD display, some LEDs, switches, analog sticks and a UART programmer.  There is a potential divider for reading the battery voltage.
 
+![PCB Photo](https://github.com/BenjiHansell/Radio-Controller/raw/master/PCB/PCB%20Photo.jpg)
+
 ## Order boards
 
 I ordered my boards at OSH Park https://oshpark.com/shared_projects/BLpBqENQ
